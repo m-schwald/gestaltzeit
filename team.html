@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GestaltZeit</title>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <header>
+      <!-- https://bulma.io/documentation/components/navbar/ -->
+      <nav
+        class="navbar is-transparent is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="index.html" class="navbar-item"> Gestaltzeit</a>
+
+            <a href="team.html" class="navbar-item"> Unser Team </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="angebote.html" class="navbar-link"> Angebote </a>
+
+              <div class="navbar-dropdown">
+                <a href="angebote.html#abend" class="navbar-item">
+                  Gestaltzeit am Abend
+                </a>
+                <a href="angebote.html#fruehling" class="navbar-item">
+                  Gestaltzeit im Frühling</a
+                >
+                <a href="angebote.html#wald" class="navbar-item">
+                  Gestaltzeit im Wald</a
+                >
+                <a href="angebote.html#herbst" class="navbar-item">
+                  Gestaltzeit im Herbst</a
+                >
+                <a href="angebote.html#einzel" class="navbar-item">
+                  Gestaltzeit Einzelsession
+                </a>
+              </div>
+            </div>
+            <a href="kontakt.html" class="navbar-item">Kontakt & Downloads</a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <!-- <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="bg"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <h1>Unser Team</h1>
+        <div class="upperPic">
+          <p>
+            Wir sind eine Initiative von Gestalttherapeut*innen (i.A. oder mit
+            abgeschlossener Ausbildung am
+            <a
+              class="brown"
+              href=" http://www.gestalt-freiburg.de/gestalttherapie-fortbildung/curriculum-termine/"
+            >
+              GestaltForum Freiburg</a
+            >
+            ) mit verschiedenen Schwerpunkten in unserer Arbeit.
+          </p>
+          <img src="images/pic07.jpg" alt="team pic" />
+        </div>
+      </section>
+      <section class="team-container">
+        <div id="Majke" class="team-container-item hidden">
+          <img src="images/t3.jpg" alt="Majke" />
+          <figure class="text-person">
+            <h3>Majke Kunze</h3>
+            <p>
+              Psychologin (M.Sc.), Gestalttherapeutin mit Schwerpunkt
+              Körperpsychotherapie & kreative Medien, Hypnosystem-Coach,
+              Traumapädagogin, Systemische Therapeutin i.A. <br /><br />
+              Mich drängt seit jeher die Frage nach dem „Wahren“: was ist das
+              eigentlich? Was steckt hinter und in all den Möglichkeiten, die
+              Welt zu sehen? Wie finde ich meine ganz eigene Wahrheit, meinen
+              Wesenskern? Meine Vision in diesem Fragen ist es, in ein
+              sinnhaftes, erfülltes und sprudeliges Leben hinein zu leben. Dabei
+              ist Gestalt für mich ein wunderbarer Boden, auf dem ich meine
+              Schritte setzen kann. In jedem gegenwärtigen Augenblick neu.
+              <br />
+              <br />
+              In meiner Begleitung von Menschen bin ich experimentierfreudig,
+              nah, achtsam und haltgebend. Ich arbeite gern über und mit dem
+              Körper, der Stimme und deinen ganz eigenen inneren Bildern.
+            </p>
+          </figure>
+        </div>
+        <div id="Patricia" class="team-container-item-reverse hidden">
+          <figure class="text-person-reverse">
+            <h3>Patricia Kleber</h3>
+            <p>
+              Sozialpädagogin (M.A.), Gestalttherapeutin, Heldenreiseleiterin,
+              Natur- und Erlebnispädagogin
+              <br /><br />
+              Seit ich die Gestalttherapie für mich entdeckt habe, lebe ich eine
+              neue Form der Begegnung mit mir selbst und anderen, die immer mehr
+              Tiefgang, Nähe und Wahrhaftigkeit in mein Leben einlädt. Den
+              kraftvollsten Moment der Gestalttherapie stellt für mich die
+              Entscheidung dar, wirkliche Verantwortung für das Fühlen und
+              Handeln zu übernehmen und dies in den ehrlichen Austausch mit den
+              Mitmenschen zu bringen. Für diese Haltung gehe ich und investiere
+              neben meiner Tätigkeit als Sozialpädagogin meine Zeit und Lust
+              dafür, sie in die Welt weiter zu tragen.
+              <br /><br />Die Ausbildung zur Heldenreiseleiterin ergänzt meinen
+              liebevoll konfrontativen Begleitungsstil durch die Fähigkeit,
+              Menschen in besonders intensiven und ausdrucksstarken Prozessen im
+              geschützten Rahmen zu begleiten.
+            </p>
+          </figure>
+          <img src="images/t2.jpg" alt="Patricia" />
+        </div>
+        <div id="Melina" class="team-container-item hidden">
+          <img src="images/t4.jpg" alt="Melina" />
+          <figure class="text-person">
+            <h3>Melina Weiner</h3>
+            <p>
+              Ich bin glückliche Beschreiterin alternativer Bildungswege,
+              Reisende und Suchende nach sinnstiftendem Sein in dieser Welt.
+              Durch meine Wildnispädagogikausbildung forsche und lebe ich mit
+              der Weisheit der Natur und arbeite mit dem Kontakt zur Erde und
+              zyklischem Leben. Tanz und Körperarbeit sind wichtige Bestandteile
+              meines Lebens, sie vertiefen und prägen mein in Beziehung Gehen zu
+              meinen Mitmenschen. Ich bin Gestalttherapeutin, wobei ein
+              besonderer Fokus hier für mich die Leitung von
+              gruppentherapeutischen Settings ist. Ein weiteres Lern- und
+              Forschungsfeld ist die Prozessbegleitung zur Projektumsetzung für
+              Gemeinschaften und Teams mit der Methode Dragon Dreaming.
+            </p>
+          </figure>
+        </div>
+        <div id="Edgar" class="team-container-item-reverse hidden">
+          <figure class="text-person-reverse">
+            <h3>Edgar Reinhold</h3>
+            <p>
+              Sozialpädagoge (B.A.), Gestalttherapeut, Natur- und
+              Erlebnispädagoge, Biologe <br /><br />
+              Mich fasziniert an der Gestaltarbeit, wie sie mich so radikal in
+              den Moment holt und mich immer wieder einlädt, wirklich mit dem zu
+              sein, was gerade ist. Dieses Annehmen macht mich innerlich frei
+              und ermöglicht Veränderung. Es macht mir große Freude, Menschen
+              dabei zu begleiten, diese Freiheit für sich zu entdecken. Mit dem
+              zu sein, was ist, bedeutet für mich auch, genau das in den Kontakt
+              mit anderen zu bringen, schonungslos ehrlich zu sein und so
+              wirklich authentische, lebendige und konstruktive Begegnungen zu
+              ermöglichen. Danach versuche ich zu leben, sowohl im Privaten als
+              auch in der therapeutischen Arbeit. In diese lasse ich auch gerne
+              meinen Humor mit einfließen. Erfahrungsgemäß kann ein
+              augenzwinkernder Blick auf die ganz schweren Themen die
+              Auseinandersetzung erleichtern.
+            </p>
+          </figure>
+          <img src="images/Gestaltzeit3.jpg" alt="Edgar" />
+        </div>
+        <div id="Agnes" class="team-container-item hidden">
+          <img src="images/Gestaltzeit14.jpg" alt="Agnes" />
+          <figure class="text-person">
+            <h3>Agnes Knoop</h3>
+            <p>
+              Dipl. Sängerin und Gesangspädagogin, Gestalttherapeutin,
+              Intuitionspraktikerin, Seelenstimm-Forscherin <br /><br />
+              Mich führt eine Sehnsucht nach tiefer Menschlichkeit, Achtsamkeit,
+              Respekt und authentischem Sein. Meiner inneren Stimme zu folgen
+              und zu vertrauen und Menschen darin zu begleiten, ist eins meiner
+              Herzensanliegen hier auf der Erde. Ich schöpfe aus der Erfahrung,
+              mich im Annehmen von Enge zu unterstützen und meinen eigenen Raum
+              immer wieder zu entfalten und auszudehnen. Mehrjähriges Sein an
+              der „Akademie der Intuition“ schulte mein intuitives Gewahrsein.
+              Durch meine Arbeit als klassische Sängerin und Gesangspädagogin
+              habe ich viel Erfahrung mit Körper-, Stimm-, und Bühnenarbeit
+              gesammelt. <br />
+              An der Gestaltarbeit begeistert mich das „in Beziehung Sein“ zu
+              dem, was gerade ist. Zu mir, zu meiner Wahrheit, zu anderen
+              Menschen, zur Welt. <br />
+              Ich arbeite im Kontakt mit Mutter Erde, verbunden mit dem Herzen,
+              fein, achtsam und warm. Dazu nutze ich meine feinen, intuitiven
+              Zugänge und die kreativen Ausdrucksweisen von Körper und Stimme.
+              Weichheit und Tiefe sind meiner Arbeit eigen.
+            </p>
+          </figure>
+        </div>
+        <div id="Martin" class="team-container-item-reverse hidden">
+          <figure class="text-person-reverse">
+            <h3>Martin Pellmann</h3>
+            <p>
+              Heilpraktiker für Psychotherapie, Gestalttherapeut, Pessotherapeut
+              (i.A) <br /><br />Gestalt ist für mich eine Art in der Welt zu
+              sein: achtsam, abenteuerlich, immer wieder frisch, aufregend. Sie
+              bietet mir einen Raum zum Vertrauen und Hingeben. In der
+              therapeutischen Begleitung ist mir wichtig, gemeinsam zu schauen,
+              was für dich gerade wirklich wesentlich ist und dir dabei zu
+              ermöglichen, in deinem eigenen Tempo zu bleiben.
+            </p>
+          </figure>
+          <img src="images/t1.jpg" alt="Martin" />
+        </div>
+        <div id="Irene" class="team-container-item hidden">
+          <img src="images/irene_kl.jpg" alt="Irene" />
+          <figure class="text-person">
+            <h3>Irene Killian</h3>
+            <p>
+              HPPsych, Gestalt- und Releasing-Therapeutin, NARM-Therapeutin
+              (i.A.), Cellolehrerin und Mutter von 6 erwachsenen Kindern
+              <br /><br />
+              Gestalt hat mich berührbarer und lebendiger gemacht. Seit ich
+              lerne, limitierende Glaubenssätze über Bord zu werfen, ist mein
+              Leben viel farbiger geworden. Besonders genieße ich, dass der
+              bessere Kontakt zu meinem Innern auch meine Kontakte nach außen
+              intensiver und herzlicher macht. Ich liebe diesen Raum, der
+              radikale Ehrlichkeit anregt auf dem Weg, den Kampf gegen sich
+              aufzugeben und tief und wertfrei anzunehmen, was da ist. Gerne
+              begleite ich Menschen dabei, in Kontakt mit ihren ureigenen
+              Impulsen und Bedürfnissen  zu kommen und stehe ihnen auf dem Weg
+              zu Selbstliebe und Selbstermächtigung als „Hebamme“ beiseite. Dazu
+              biete ich mit viel Ruhe, großem Vertrauen und Achtung vor den
+              individuellen Heilungswegen mein warmes Gewahrsein an. Manchmal
+              lockt es mich aber auch, ein wenig zu kitzeln und spielerisch an
+              die Themen heran zu gehen!
+            </p>
+          </figure>
+        </div>
+        <div id="Manuel" class="team-container-item-reverse hidden">
+          <figure class="text-person-reverse">
+            <h3>Manuel Tumino</h3>
+            <p>
+              Gestaltarbeit, Körperarbeit, Rebalancing, Jungen*arbeit,
+              Fachbereich sexualisierte Gewalt, Council, MBSR,
+              Kinderschutzfachkraft, RestorativeJustice<br /><br />
+              Mitmensch zu sein bedeutet Mit Mensch zu sein <br />
+              mal klein und fein, mal grob wie ein Stein,<br />im gemeinsamen
+              Hain scheint das wahre Sein.
+            </p>
+          </figure>
+          <img src="images/Gestaltzeit6.jpg" alt="Manuel" />
+        </div>
+      </section>
+      <section class="welcome">
+        <img src="images/team2.jpg" alt="team picture" />
+        <p>
+          <span class="playlist green fs-clamp">
+            Wir freuen uns, dich kennen zu lernen – in all deinen
+            Facetten!</span
+          >
+        </p>
+      </section>
+      <br />
+      <br />
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>Infos:</h2>
+        <ul>
+          <li>
+            <a href="index.html" class=""> über Gestaltzeit</a>
+          </li>
+          <li><a href="team.html" class=""> unser Team </a></li>
+          <li>
+            <a href="angebote.html" class=""> unsere Angebote </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="kontakt.html" class="">Kontakt & Downloads</a></li>
+          <li><a href="impressum.html" class="">Impressum</a></li>
+          <li><a href="datenschutz.html" class="">Datenschutzerklärung</a></li>
+        </ul>
+        <img src="images/logo_ol.png" alt="Gestaltzeit Logo" />
+      </div>
+    </footer>
+    <script src="./js/navbarToggle.js"></script>
+    <script src="./js/team.js"></script>
+  </body>
+</html>

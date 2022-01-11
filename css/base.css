@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Playlist";
+  src: url("../webfonts/Playlist-Script.ttf.woff") format("woff"),
+    url("../webfonts/Playlist-Script.ttf.svg#Playlist-Script") format("svg"),
+    url("../webfonts/Playlist-Script.ttf.eot"),
+    url("../webfonts/Playlist-Script.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../webfonts/Montserrat-Black.ttf") format("ttf"),
+    url("../webfonts/Montserrat-Bold.ttf") format("ttf"),
+    url("../webfonts/Montserrat-ExtraBold.ttf") format("ttf"),
+    url("../webfonts/Montserrat-ExtraLight.ttf") format("ttf"),
+    url("../webfonts/Montserrat-Light.ttf") format("ttf"),
+    url("../webfonts/Montserrat-Regular.ttf") format("ttf"),
+    url("../webfonts/Montserrat-Medium.ttf") format("ttf"),
+    url("../webfonts/Montserrat-SemiBold.ttf") format("ttf"),
+    url("../webfonts/Montserrat-Thin.ttf") format("ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --one: #808c3d;
+  --two: #667800;
+  --three: #884920;
+  --dark: black;
+  --light: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+a:hover {
+  color: var(--one);
+}
+
+main a {
+  font-family: "Playlist";
+  font-size: 1.3rem;
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playlist";
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  color: var(--dark);
+}
+
+.bold1 {
+  font-weight: 600 !important;
+}
+
+.bold {
+  font-weight: 500 !important;
+}
+
+td {
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+}
+
+td:nth-of-type(odd) {
+  font-weight: 600;
+}
+
+.playlist {
+  font-family: "Playlist";
+  font-size: 2rem;
+}
+.playlist-s {
+  font-family: "Playlist";
+  font-size: 1.5rem;
+}
+
+.font-s {
+  font-size: 1rem;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 15vw;
+  width: 100vw;
+  height: auto;
+  background: linear-gradient(#f3f3f3, #fafafa);
+  position: relative;
+  gap: 5vw;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 0.7rem;
+    padding: 1rem 5vw;
+  }
+}
+/* @media (max-width: 500px) {
+  .footer h2 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .footer img {
+    bottom: 3rem;
+    width: 15vw;
+  }
+}
+ */
+.footer h2 {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer li a {
+  color: black;
+  padding: 0 1rem;
+}
+
+.footer a:hover {
+  color: var(--one);
+}
+
+.footer img {
+  width: 10vw;
+  height: auto;
+  position: absolute;
+  right: 10vw;
+  bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .footer img {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .footer h2 {
+    display: none;
+  }
+}
+
+.green {
+  color: var(--two);
+}
+
+.brown:hover {
+  color: var(--three) !important;
+}
+
+.fs-clamp {
+  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+
+@media (max-width: 500px) {
+  .upperPic {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

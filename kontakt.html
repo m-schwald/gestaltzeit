@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GestaltZeit</title>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <header>
+      <!-- https://bulma.io/documentation/components/navbar/ -->
+      <nav
+        class="navbar is-transparent is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="index.html" class="navbar-item"> Gestaltzeit</a>
+
+            <a href="team.html" class="navbar-item"> Unser Team </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="angebote.html" class="navbar-link"> Angebote </a>
+
+              <div class="navbar-dropdown">
+                <a href="angebote.html#abend" class="navbar-item">
+                  Gestaltzeit am Abend
+                </a>
+                <a href="angebote.html#fruehling" class="navbar-item">
+                  Gestaltzeit im Frühling</a
+                >
+                <a href="angebote.html#wald" class="navbar-item">
+                  Gestaltzeit im Wald</a
+                >
+                <a href="angebote.html#herbst" class="navbar-item">
+                  Gestaltzeit im Herbst</a
+                >
+                <a href="angebote.html#einzel" class="navbar-item">
+                  Gestaltzeit Einzelsession
+                </a>
+              </div>
+            </div>
+            <a href="kontakt.html" class="navbar-item">Kontakt & Downloads</a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <!-- <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="bg"></div>
+      </nav>
+    </header>
+    <main class="impressum-body full-height">
+      <h2>Kontakt</h2>
+
+      <p>
+        Du erreichst uns am einfachsten per E-Mail unter
+        <a class="playlist-s" href="mailto:gestaltzeit@posteo.de">
+          gestaltzeit@posteo.de</a
+        >
+      </p>
+
+      <h2>Downloads</h2>
+
+      <p>
+        Für einige unserer Angebote brauchen wir folgende Dokumente von dir:
+      </p>
+      <ul>
+        <li>
+          <a class="playlist-s" href="./downloads/Anmeldebogen allgemein.pdf">
+            Anmeldebogen</a
+          >
+        </li>
+        <li>
+          <a
+            class="playlist-s"
+            href="./downloads/Selbstverantwortungserklärung allgemein.pdf"
+          >
+            Selbstverantwortungserklärung</a
+          >
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>Infos:</h2>
+        <ul>
+          <li>
+            <a href="index.html" class=""> über Gestaltzeit</a>
+          </li>
+          <li><a href="team.html" class=""> unser Team </a></li>
+          <li>
+            <a href="angebote.html" class=""> unsere Angebote </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="kontakt.html" class="">Kontakt & Downloads</a></li>
+          <li><a href="impressum.html" class="">Impressum</a></li>
+          <li><a href="datenschutz.html" class="">Datenschutzerklärung</a></li>
+        </ul>
+        <img src="images/logo_ol.png" alt="Gestaltzeit Logo" />
+      </div>
+    </footer>
+    <script src="./js/navbarToggle.js"></script>
+    <script src="./js/team.js"></script>
+  </body>
+</html>

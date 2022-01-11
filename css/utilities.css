@@ -1,0 +1,43 @@
+.img-s {
+  width: 140px;
+  width: clamp(80px 20vw 200px);
+  height: auto;
+}
+
+.img-m {
+  width: 220px;
+  width: clamp(180px 20vw 400px);
+  height: auto;
+}
+
+.img-l {
+  width: 350px;
+  width: clamp(280px 20vw 600px);
+  height: auto;
+}
+
+.img-full {
+  width: 100vw;
+  height: auto;
+}
+
+.link-s {
+  font-size: 1rem;
+}
+
+.br-35 {
+  border-radius: 35px;
+}
+
+.br-8 {
+  border-radius: 82% 59% / 25% 18%;
+}
+
+.full-height {
+  height: 79vh;
+}
+
+.main-font {
+  font-family:"Montserrat", sans-serif;
+  font-size: 1rem;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GestaltZeit</title>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <header>
+      <!-- https://bulma.io/documentation/components/navbar/ -->
+      <nav
+        class="navbar is-fixed-top is-transparent"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="index.html" class="navbar-item"> Gestaltzeit</a>
+
+            <a href="team.html" class="navbar-item"> Unser Team </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="angebote.html" class="navbar-link"> Angebote </a>
+
+              <div class="navbar-dropdown">
+                <a href="angebote.html#abend" class="navbar-item">
+                  Gestaltzeit am Abend
+                </a>
+                <a href="angebote.html#fruehling" class="navbar-item">
+                  Gestaltzeit im Frühling</a
+                >
+                <a href="angebote.html#wald" class="navbar-item">
+                  Gestaltzeit im Wald</a
+                >
+                <a href="angebote.html#herbst" class="navbar-item">
+                  Gestaltzeit im Herbst</a
+                >
+                <a href="angebote.html#einzel" class="navbar-item">
+                  Gestaltzeit Einzelsession
+                </a>
+              </div>
+            </div>
+            <a href="kontakt.html" class="navbar-item">Kontakt & Downloads</a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <!-- <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="bg"></div>
+      </nav>
+    </header>
+
+    <main id="start">
+      <section class="first">
+        <img
+          class="bigEntrance"
+          src="images/logo_ol.png"
+          alt="GestaltZeit Header"
+        />
+        <h1 class="slideUp">Kontakt - Präsenz - Selbsterfahrung</h1>
+        <a class="link--down" href="#welcome">
+          <img src="images/down_white.png" alt="arrow down"
+        /></a>
+      </section>
+
+      <section id="welcome" class="welcome">
+        <h1>Willkommen!</h1>
+        <p>
+          Bist du auf der Suche, ohne genau zu wissen, wonach eigentlich? <br />
+          Hast du Lust, dich mit dir und der Welt auseinander zu setzen? <br />
+          In authentischen und wahrhaftigen Kontakt einzutauchen?
+        </p>
+        <p>Dann bist du hier und jetzt genau richtig!</p>
+        <img src="images/header2.jpg" alt="hands" />
+        <p>
+          Wir initiieren
+          <a class="bold" href="angebote.html"
+            >Erfahrungs- und Forschungsräume</a
+          >, in denen du dich durch verschiedene Formate wie Sharing in der
+          Gruppe, Einzel-, Partner*innen- und Gruppenübungen, Meditation und
+          Achtsamkeitsübungen, Body Work und kreativen Ausdruck selbst entdecken
+          und dich im zwischenmenschlichen Kontakt erfahren kannst.
+        </p>
+      </section>
+      <section class="gallery">
+        <div id="gallery" class="item hidden">
+          <a href="angebote.html#abend"
+            ><img
+              src="images/logo_bl.png"
+              alt="Gestaltzeit am Abend"
+              class="gallery__item"
+          /></a>
+          <a href="angebote.html#fruehling"
+            ><img
+              src="images/logo_ge.png"
+              alt="Gestaltzeit im Frühling"
+              class="gallery__item"
+          /></a>
+          <a href="angebote.html#frauenzeit"
+            ><img
+              src="images/logo_frauenzeit.png"
+              alt="Wilde Frauenzeit"
+              class="gallery__item"
+          /></a>
+          <a href="angebote.html#wald"
+            ><img
+              src="images/logo_wald.png"
+              alt="Gestaltzeit im Wald"
+              class="gallery__item"
+          /></a>
+          <a href="angebote.html#herbst"
+            ><img
+              src="images/logo_herbst.png"
+              alt="Gestaltzeit im Herbst"
+              class="gallery__item"
+          /></a>
+          <a href="angebote.html#einzel"
+            ><img
+              src="images/logo_einzel_gr.png"
+              alt="Gestaltzeit Einzelsession"
+              class="gallery__item"
+          /></a>
+        </div>
+      </section>
+
+      <section class="welcome">
+        <p>
+          <span class="playlist-s">Gestaltarbeit bzw. -therapie</span> ist ein
+          erfahrungs- und erlebnisorientierter Ansatz, der Menschen bei
+          Bewusstwerdung ihrer Körperwahrnehmungen und Emotionen unterstützt und
+          dadurch zu Veränderungsprozessen beiträgt.
+        </p>
+      </section>
+
+      <section class="gallery2">
+        <div>
+          <img src="images/pic03.jpg" alt="" />
+          <p>Kontakt</p>
+        </div>
+        <div>
+          <img src="images/pic01.jpg" alt="" />
+          <p>Achtsamkeit</p>
+        </div>
+        <div>
+          <img src="images/pic04.jpg" alt="" />
+          <p>Nähe</p>
+        </div>
+        <div>
+          <img src="images/pic02.jpg" alt="" />
+          <p>Lebendigkeit</p>
+        </div>
+      </section>
+
+      <section class="welcome">
+        <p class="welcome__text">
+          <a href="team.html">Wir sind</a> eine Initiative von
+          Gestalttherapeut*innen (i.A. oder mit abgeschlossener Ausbildung) mit
+          verschiedenen Schwerpunkten in der Begleitung von Menschen. Was uns
+          verbindet, ist unsere gemeinsame Vision, Menschen in ihren
+          Veränderungsprozessen auf ihrem ganz individuellen Weg zu
+          unterstützen.
+        </p>
+        <a href="team.html">
+          <img src="images/team.jpg" alt="team picture"
+        /></a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>Infos:</h2>
+        <ul>
+          <li>
+            <a href="index.html" class=""> über Gestaltzeit</a>
+          </li>
+          <li><a href="team.html" class=""> unser Team </a></li>
+          <li>
+            <a href="angebote.html" class=""> unsere Angebote </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="kontakt.html" class="">Kontakt & Downloads</a></li>
+          <li><a href="impressum.html" class="">Impressum</a></li>
+          <li><a href="datenschutz.html" class="">Datenschutzerklärung</a></li>
+        </ul>
+        <img src="images/logo_ol.png" alt="Gestaltzeit Logo" />
+      </div>
+    </footer>
+    <script src="./js/navbarToggle.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

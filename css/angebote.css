@@ -1,0 +1,191 @@
+.angebote-container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 3rem 0;
+}
+
+.angebote-container-item {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5vw;
+  flex-flow: row wrap;
+  gap: 5vw;
+}
+
+.angebote-container-item img {
+  width: 300px;
+  width: clamp(200px, 20vw, 500px);
+  height: 100%;
+  border-radius: 35%;
+  filter: drop-shadow(1rem 1rem 0.75rem rgba(0, 0, 0, 0.466));
+}
+
+.angebote-container h3 {
+  color: var(--three);
+  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 4vh, 1.8rem);
+}
+
+.text-angebot {
+  width: 400px;
+  width: clamp(200px, 50vw, 1000px);
+  padding-right: 5vw;
+}
+
+.text-angebot p {
+  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
+  line-height: 1.5;
+  font-weight: 300;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 571px) {
+  .text-angebot {
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+  }
+}
+
+.angebote-container-item-reverse {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  flex-flow: row wrap-reverse;
+  gap: 5vw;
+}
+
+.angebote-container-item-reverse img {
+  width: 300px;
+  width: clamp(200px, 20vw, 500px);
+  height: 100%;
+  border-radius: 35%;
+  filter: drop-shadow(1rem 1rem 0.75rem rgba(0, 0, 0, 0.466));
+  margin-right: 5vw;
+}
+
+.text-angebot-reverse {
+  width: 400px;
+  width: clamp(200px, 50vw, 1000px);
+  padding-left: 5vw;
+  text-align: right;
+}
+
+.text-angebot-reverse p {
+  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
+
+  line-height: 1.5;
+  font-weight: 300;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 571px) {
+  .text-angebot-reverse {
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+  }
+}
+
+summary {
+  border-radius: 10px;
+  margin: -1rem 0 2rem 0;
+  width: 90vw;
+  font-weight: 400;
+  font-family: "Playlist";
+  font-size: 1.5rem;
+  padding: 0.5rem 13vw;
+}
+
+.sum_abend {
+  color: var(--light);
+  background: radial-gradient(circle at 0%, rgb(50, 87, 167), transparent 90%);
+}
+
+.sum_frauen {
+  color: var(--light);
+  background: radial-gradient(circle at 0%, rgb(124, 10, 10), transparent 90%);
+}
+
+#abend h3 {
+  color: rgb(50, 87, 167);
+}
+
+.sum_fruehling {
+  color: var(--light);
+  background: radial-gradient(
+    circle at 100%,
+    rgb(221, 205, 64),
+    transparent 90%
+  );
+  text-align: right;
+}
+
+#fruehling h3 {
+  color: rgb(221, 205, 64);
+}
+
+.sum_wald {
+  color: var(--light);
+  background: radial-gradient(
+    circle at 100%,
+    rgb(76, 112, 65),
+    transparent 90%
+  );
+  text-align: right;
+}
+
+#wald h3 {
+  color: rgb(76, 112, 65);
+}
+
+.sum_herbst {
+  color: var(--light);
+  background: radial-gradient(circle at 0%, rgb(189, 127, 70), transparent 90%);
+}
+
+#herbst h3 {
+  color: rgb(189, 127, 70);
+}
+
+#einzel h3 {
+  color: var(--one);
+}
+
+details {
+  padding: 0 5rem;
+}
+
+.details {
+  line-height: 1.3;
+  padding: 2rem 2rem;
+  padding: 2rem clamp(1.5rem, 3vw, 5rem);
+  background: #f8f8f8;
+}
+
+/* .details a {
+  text-decoration: underline;
+} */
+
+.details__pics {
+  display: flex;
+  width: 84vw;
+  flex-flow: row nowrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.details__pics img {
+  width: 150px;
+  width: clamp(80px, 25vw, 300px);
+  border-radius: 30px;
+  margin: 1rem 0.3rem;
+  padding: 1rem 0;
+}

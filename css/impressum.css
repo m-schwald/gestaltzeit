@@ -1,0 +1,66 @@
+.impressum-body {
+  padding: 1rem 10vw;
+  margin: 0 0 3rem 0;
+  position: relative;
+}
+
+.impressum-body h2 {
+  margin: 2rem 0 0 2rem;
+  font-size: 2rem;
+  font-size: clamp(1.6rem, 3vw, 3rem);
+}
+
+.impressum-body h3 {
+  margin: 1rem 0 0 0;
+  font-size: 1.7rem;
+  font-size: clamp(1.3rem, 3vw, 2.5rem);
+}
+
+.impressum-body p {
+  max-width: 100ch;
+  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
+}
+
+.impressum-body a {
+  max-width: 100ch;
+  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.impressum-body h1 {
+  position: absolute;
+  top: 10vh;
+  right: 20vw;
+  transform: rotate(-10deg);
+  font-size: 4rem;
+}
+
+@media (max-width: 500px) {
+  .impressum-body h1 {
+    position: relative;
+    font-size: 2rem;
+    transform: rotate(0);
+    top: auto;
+    right: auto;
+  }
+}
+
+.impressum-body h5 {
+  margin: 3rem auto 0 auto;
+  font-size: 2.5rem;
+  font-size: clamp(2rem, 4vw, 4rem);
+}
+
+.go-down {
+  margin: 3rem 0 0 0;
+}
+
+.impressum-body ul {
+  margin: 0.5rem 0 0 2rem;
+  list-style: initial;
+  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
+}
