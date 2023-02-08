@@ -110,7 +110,12 @@ summary {
 
 .sum_frauen {
   color: var(--light);
-  background: radial-gradient(circle at 0%, rgb(124, 10, 10), transparent 90%);
+  background: radial-gradient(
+    circle at 100%,
+    rgb(124, 10, 10),
+    transparent 90%
+  );
+  text-align: right;
 }
 
 #abend h3 {

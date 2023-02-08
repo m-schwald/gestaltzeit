@@ -145,6 +145,7 @@ summary {
     padding: 1rem 0;
   }
 }
+
 .gallery img:hover {
   transform: scale(1.4);
   transition: 0.5s all ease;
@@ -237,4 +238,8 @@ a.navbar-item:hover {
 
 .navbar-dropdown > a.navbar-item {
   color: black;
+}
+
+.normalFontSize {
+  font-size: clamp(1rem, 2.5vh, 1.5rem);
 }
